@@ -32,7 +32,7 @@
 
 @end
 
-@implementation WLARecorderPressView 
+@implementation WLARecorderPressView
 
 - (id)initWithFrame:(CGRect)frame
 {
