@@ -6,10 +6,10 @@
 
 amr是Android的默认录音格式，本身体积小，适合移动通讯，由于iOS4.0以后由于Apple不再支持amr文件的播放，所以本工程引入了开源库`libopencore-armnb`，进行wav到amr的格式转换。
 
-##使用
-
 ![](https://github.com/Bayonetta/ZSAudioCommunication/blob/master/art/audio1.png?raw=true)
 ![](https://github.com/Bayonetta/ZSAudioCommunication/blob/master/art/audio2.png?raw=true)
+
+##使用
 
 ####WLAAudioController
 
