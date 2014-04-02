@@ -21,7 +21,7 @@
 
 @interface WLARecorderPressView : UIView 
 
-@property (nonatomic, strong) id recorderDelegate;
+@property (nonatomic, weak) id<WLARecorderDelegate> recorderDelegate;
 
 - (void)setup:(UIView *)parentView;
 
