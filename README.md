@@ -1,11 +1,12 @@
 ##ZSAudioCommunication
-=======
 
-由于google与apple互掐，所以很难找到通用的音频格式。
+本工程是对[TheAmazingAudioEngine](http://theamazingaudioengine.com/)音频处理引擎的再次封装，使用便捷。
 
-amr是android的默认录音格式，本身体积小，适合移动通讯，ios4.0以后由于apple不再支持amr文件的播放，所以本工程引入了开源库`libopencore-armnb`，进行wav到amr的格式转换。
+由于Google与Apple常年互掐，所以很难找到通用的音频格式。
 
+amr是Android的默认录音格式，本身体积小，适合移动通讯，由于iOS4.0以后由于Apple不再支持amr文件的播放，所以本工程引入了开源库`libopencore-armnb`，进行wav到amr的格式转换。
 
+##使用
 
 ![](https://github.com/Bayonetta/ZSAudioCommunication/blob/master/art/audio1.png?raw=true)
 ![](https://github.com/Bayonetta/ZSAudioCommunication/blob/master/art/audio2.png?raw=true)
@@ -60,3 +61,11 @@ amr是android的默认录音格式，本身体积小，适合移动通讯，ios4
 
 
 对应amr与wav音频文件的格式转换
+
+
+##特点
+
+* 操作便捷，转换延时小
+
+* 支持听筒与扬声器的自动转换
+
