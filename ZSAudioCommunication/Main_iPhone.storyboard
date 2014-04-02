@@ -73,7 +73,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLU-Ie-UhD">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLU-Ie-UhD" customClass="WLARecorderPressView">
                                 <rect key="frame" x="20" y="431" width="280" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -92,7 +92,7 @@
                     <navigationItem key="navigationItem" id="VrJ-cj-yxa"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="recorderView" destination="BLU-Ie-UhD" id="yHM-7Z-dAt"/>
+                        <outlet property="recorderView" destination="BLU-Ie-UhD" id="AA3-HE-bEs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yzv-WJ-5AF" userLabel="First Responder" sceneMemberID="firstResponder"/>
