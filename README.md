@@ -10,7 +10,6 @@ amr是Android的默认录音格式，本身体积小，适合移动通讯，由�
 
 ![](https://github.com/Bayonetta/ZSAudioCommunication/blob/master/art/audio1.png?raw=true)
 ![](https://github.com/Bayonetta/ZSAudioCommunication/blob/master/art/audio2.png?raw=true)
-![](https://github.com/Bayonetta/ZSAudioCommunication/blob/master/art/audio3.png?raw=true)
 
 ####WLAAudioController
 
